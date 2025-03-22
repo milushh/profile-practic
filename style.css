@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.my-image{
+    width: 150px;
+    height: 150px;
+    margin-top: 51px;
+    border-radius: 50%;
+}
+.main-block{
+    display: flex;
+}
+.my-name{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: black;    
+}
+.about-information-block-first{
+width: 1400px;
+height: auto;
+background:  #e08534;  
+
+}
+.main-about-information{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.my-profile{
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 2%;
+text-transform: capitalize;
+color: #FFFFFFB2;
+text-align: center;
+}
+.details{
+font-weight: 700;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 2%;
+text-transform: capitalize;
+margin-left: 45px;
+color: black;
+}
+#theme-toggle{
+    border: none;
+    background-color: black;
+    padding: 20px 40px;
+    color: #ccc;
+    border-radius: 20px;
+}
+#font-toggle{
+    border: none;
+    background-color: black;
+    padding: 20px 40px;
+    color: #ccc;
+    border-radius: 20px;
+}
+.no-main-text{
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 2%;
+    text-transform: capitalize;
+    color: #FFFFFFB2;
+    margin-left: 45px;
+    text-decoration: none;
+}
+.main-text{
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 2%;
+margin-left: 45px;
+}
+.main-about-information-2{
+    margin-top: 85px;
+    padding-bottom: 80px;
+}
+.about-information-block-second{
+    background-color: black;
+    
+}
+.details-second{
+font-weight: 700;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 2%;
+text-transform: capitalize;
+margin-left: 45px;
+color: #e08534;
+
+}
+.second-block-1{
+    margin-top: 65px;
+}
+
+body {
+    color: black;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-theme .my-name {
+    color: #ffffff;
+}
+
+body.dark-theme .my-profile {
+    color: #cccccc;
+}
+
+body.dark-theme .details {
+    color: #e08534;
+}
+
+body.dark-theme .no-main-text {
+    color: #cccccc;
+}
+
+body.dark-theme .main-text {
+    color: #ffffff;
+}
+
+body.dark-theme .about-information-block-first {
+    background: #333333;
+}
+
+body.dark-theme .about-information-block-second {
+    background-color: #444444;
+}
+
+body.dark-theme .details-second {
+    color: #e08534;
+}
+
+
+body.font-1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+body.font-2 {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
